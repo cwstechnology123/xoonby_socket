@@ -1,0 +1,7 @@
+NODE_ENV=development
+PORT=9900
+DB_HOST=192.185.57.29
+DB_USER=debatest_debate
+DB_PASSWORD=CL+OzPj4Ydpe
+DB_NAME=debatest_roku
+base_url=http://boker.cwsbuild.com:9900

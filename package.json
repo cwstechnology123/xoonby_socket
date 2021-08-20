@@ -1,0 +1,18 @@
+{
+  "name": "xoonby_socket",
+  "version": "1.0.0",
+  "description": "Realtime Chat App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment-timezone": "^0.5.33",
+    "node-datetime": "^2.1.2",
+    "socket.io": "^3.1.2"
+  }
+}
