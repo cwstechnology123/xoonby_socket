@@ -11,7 +11,7 @@ image_url = 'https://www.xoonby.com';
 
 var app = require('express')();
 
-var http = require('https').Server(app);
+var http = require('http').Server(app);
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
