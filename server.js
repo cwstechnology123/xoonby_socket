@@ -7,7 +7,7 @@ const tzone = "America/Los_Angeles";
 const dotenv = require('dotenv');
 dotenv.config();
 base_url = process.env.base_url;
-image_url = 'http://boker.cwsbuild.com';
+image_url = 'https://www.xoonby.com';
 
 var app = require('express')();
 
