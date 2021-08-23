@@ -13,7 +13,7 @@
 <title>Xoonby Socket</title>
 <script>
   var loginUserId = Math.floor(Math.random() * Math.floor(20))+1;
-  var server = process.env.base_url;
+  var server = "https://xoonby-socket.herokuapp.com/";
   var connectionOptions =  {
            "force new connection" : true,
            "reconnectionAttempts": "Infinity", //avoid having user reconnect manually in order to prevent dead clients after a server restart
